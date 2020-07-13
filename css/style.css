@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin-top: 80px;
+}
+.navbar .nav-item{
+    padding-right: 30px;
+    font-size: 18px;
+
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+ 
+}
+.navbar{
+    box-shadow: 3px 3px 5px blue;
+    opacity: 0.5;
+}
+ .nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+
+a .navbar-brand{
+    color: black;
+
+}
+
+a .navbar-brand:hover{
+    color: black;
+}
+
+.btn1{
+    border-radius: 0px;
+    color: white;
+}
+#home{
+    background: url('../Image/woman-with-brown-eyes-and-brown-and-black-hair-3727149.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 550px;
+    color: white;
+}
+.img-overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 550px;
+}
+
+.homer-inner{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.img1{
+    border-radius: 200px;
+}
+.boxb{
+    border-radius: 0px;
+}
+
+#author  img {
+    margin-top: -60px;
+}
+.card:hover{
+  background-color: skyblue;
+  
+}
+.card a:hover{
+    color:white;
+}
+
+
+
+@media(max-width:767px){
+    #home h1{
+        font-size: 30px;
+        padding-top: 150px;
+    }
+    .homer-inner{
+        padding-top: 90px;
+        padding-bottom: 70px;
+    }
+    
+}
+
